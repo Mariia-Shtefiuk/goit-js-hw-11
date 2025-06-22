@@ -20,23 +20,23 @@ export const createGallery = images => {
         return ` 
   <li class="gallery-item">
         <a href="${largeImageURL}">
-        <img src="${webformatURL}" alt="${tags}" width="300">
+        <img src="${webformatURL}" alt="${tags}" width="360" height="200">
         </a>
-        <div class="image-stats">
-            <div class="image-stat">
-                <span class="label">Likes</span>
+        <div class="img-info">
+            <div class="img-stat">
+                <span class="sub-title">Likes</span>
                 <span class="value">${likes}</span>
             </div>
-            <div class="image-stat">
-                <span class="label">Views</span>
+            <div class="img-stat">
+                <span class="sub-title">Views</span>
                 <span class="value">${views}</span>
             </div>
-            <div class="image-stat">
-                <span class="label">Comments</span>
+            <div class="img-stat">
+                <span class="sub-title">Comments</span>
                 <span class="value">${comments}</span>
             </div>
-            <div class="image-stat">
-                <span class="label">Downloads</span>
+            <div class="img-stat">
+                <span class="sub-title">Downloads</span>
                 <span class="value">${downloads}</span>
             </div>
         </div>
